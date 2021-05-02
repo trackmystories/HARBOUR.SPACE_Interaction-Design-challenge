@@ -1,0 +1,12 @@
+.commitment__section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.commitment__grid_area1 {
+  grid-area: left;
+}
+
+.commitment__grid_area2 {
+  grid-area: right;
+}

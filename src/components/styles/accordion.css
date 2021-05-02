@@ -1,0 +1,48 @@
+#accordion__section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.accordion {
+  background-color: #fff;
+  color: #685dc5;
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+.accordion__title {
+  font-family: Apercu Pro;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+}
+
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.accordion__content {
+  background-color: white;
+  overflow: auto;
+  transition: max-height 0.6s ease;
+}
+
+.accordion__text {
+  font-family: Apercu Pro;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+}

@@ -1,0 +1,18 @@
+#aprenticeship_section {
+}
+
+.studentImage {
+  position: absolute;
+  width: 602.18px;
+  height: 402.18px;
+  left: 136.78px;
+  top: 1059px;
+  background: url("../../assets/student.jpg");
+}
+
+.aprenticeship {
+  overflow: hidden;
+  margin-top: 10%;
+  position: relative;
+  border: 1px solid black;
+}
