@@ -1,18 +1,172 @@
 #aprenticeship_section {
-}
-
-.studentImage {
-  position: absolute;
-  width: 602.18px;
-  height: 402.18px;
-  left: 136.78px;
-  top: 1059px;
-  background: url("../../assets/student.jpg");
+  margin: 7%;
+  z-index: -10;
 }
 
 .aprenticeship {
-  overflow: hidden;
-  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.aprenticeship__left {
   position: relative;
-  border: 1px solid black;
+}
+
+.aprenticeship__right-h3 {
+  height: 112px;
+  left: 52.78%;
+  right: 13.96%;
+  top: 1106px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+
+  letter-spacing: -0.6px;
+
+  color: #685dc5;
+}
+
+.aprenticeship__right-p {
+  height: 160px;
+  left: 52.78%;
+  right: 13.96%;
+  top: 1258px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+
+  letter-spacing: -0.33px;
+
+  color: #535353;
+}
+
+.aprenticeship__right {
+  position: relative;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.apprenticeship__image {
+  position: relative;
+}
+.apprenticeship__image-circle-container-img {
+  display: flex;
+  margin: auto;
+}
+
+.apprenticeship__image-student-container {
+  position: absolute;
+  top: 7%;
+  left: 7%;
+}
+
+.apprenticeship__image-student-container-img {
+  border-radius: 1000px;
+}
+
+/* tablet */
+
+@media only screen and (max-width: 675px) {
+  #aprenticeship_section {
+    margin: auto;
+    z-index: -10;
+  }
+
+  .aprenticeship {
+    margin-top: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .aprenticeship__left {
+    margin: auto;
+    width: 100%;
+    position: relative;
+  }
+
+  .aprenticeship__left-responsive-color {
+    position: absolute;
+    width: 100%;
+    height: 501px;
+    top: 0;
+    left: 0;
+    background: #685dc5;
+    z-index: -9999;
+  }
+  .aprenticeship__left-responsive-color-white {
+    position: absolute;
+    width: 80%;
+    height: 501px;
+    top: 0;
+    left: 10%;
+    background: #fff;
+    z-index: -9998;
+  }
+
+  .aprenticeship__right-h3 {
+    height: 192px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.6px;
+    color: #685dc5;
+  }
+
+  .aprenticeship__right-p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+
+    letter-spacing: -0.33px;
+
+    color: #535353;
+  }
+
+  .aprenticeship__right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+  }
+
+  .apprenticeship__image {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+  }
+  .apprenticeship__image-circle-container-img {
+    display: flex;
+    margin: auto;
+    width: auto;
+  }
+
+  .apprenticeship__image-student-container {
+  }
+
+  .apprenticeship__image-student-container-img {
+    display: flex;
+    margin: auto;
+    width: auto;
+    border-radius: 1000px;
+  }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 375px) {
 }
