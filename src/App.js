@@ -20,7 +20,9 @@ export default function App() {
           <Main />
         </main>
 
-        <section className="section_1"></section>
+        <section className="section_1">
+          <Aprenticeship />
+        </section>
 
         <section className="section_2"></section>
 

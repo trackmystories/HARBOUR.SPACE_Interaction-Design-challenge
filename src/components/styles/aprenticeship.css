@@ -58,6 +58,8 @@
   position: relative;
 }
 .apprenticeship__image-circle-container-img {
+  display: flex;
+  margin: auto;
 }
 
 .apprenticeship__image-student-container {
@@ -74,6 +76,7 @@
 
 @media only screen and (max-width: 675px) {
   #aprenticeship_section {
+    margin: auto;
     z-index: -10;
   }
 
@@ -86,12 +89,14 @@
   }
 
   .aprenticeship__left {
+    margin: auto;
+    width: 100%;
     position: relative;
   }
 
   .aprenticeship__left-responsive-color {
     position: absolute;
-    width: 120%;
+    width: 100%;
     height: 501px;
     top: 0;
     left: 0;
@@ -109,33 +114,20 @@
   }
 
   .aprenticeship__right-h3 {
-    height: 112px;
-    left: 52.78%;
-    right: 13.96%;
-    top: 1106px;
-
+    height: 192px;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 56px;
-    /* or 117% */
-
     letter-spacing: -0.6px;
-
     color: #685dc5;
   }
 
   .aprenticeship__right-p {
-    height: 160px;
-    left: 52.78%;
-    right: 13.96%;
-    top: 1258px;
-
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
     line-height: 32px;
-    /* or 145% */
 
     letter-spacing: -0.33px;
 
@@ -144,23 +136,32 @@
 
   .aprenticeship__right {
     position: relative;
-    width: 40%;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
   }
 
   .apprenticeship__image {
+    display: flex;
+    margin: auto;
+    justify-content: center;
     position: relative;
   }
   .apprenticeship__image-circle-container-img {
+    display: flex;
+    margin: auto;
+    width: auto;
   }
 
   .apprenticeship__image-student-container {
-    position: absolute;
-    top: 7%;
-    left: 7%;
   }
 
   .apprenticeship__image-student-container-img {
+    display: flex;
+    margin: auto;
+    width: auto;
     border-radius: 1000px;
   }
 }
