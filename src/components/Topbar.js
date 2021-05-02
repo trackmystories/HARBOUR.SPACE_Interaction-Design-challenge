@@ -4,7 +4,7 @@ import topIcon from "../assets/icon.svg";
 
 export default function TopBar() {
   return (
-    <div className="topbar__section">
+    <div id="topbar__section">
       <div className="topbar__left">
         <p>
           HARBOUR.SPACE <span>/ interaction design</span>

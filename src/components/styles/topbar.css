@@ -1,7 +1,8 @@
-.topbar__section {
+#topbar__section {
   position: fixed;
   width: 100%;
   background: #685dc5;
+  z-index: 10;
 }
 
 .topbar__left {
@@ -25,6 +26,8 @@ span {
   color: #fff;
 }
 
+/* tablet */
+
 @media only screen and (max-width: 675px) {
   .topbar__section {
     width: 100%;
@@ -40,4 +43,9 @@ span {
     float: right;
     margin-right: 0%;
   }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 375px) {
 }

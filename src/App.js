@@ -4,12 +4,13 @@ import Main from "./screens/Main";
 import Aprenticeship from "./components/Aprenticeship";
 import Footer from "./screens/Footer";
 import Faq from "./screens/Faq";
+import ViewportProvider from "./Providers/viewportProvider";
 
 import "./App.css";
 
 export default function App() {
   return (
-    <>
+    <ViewportProvider>
       <div className="grid">
         <header className="header">
           <Header />
@@ -25,6 +26,6 @@ export default function App() {
 
         <footer className="footer"></footer>
       </div>
-    </>
+    </ViewportProvider>
   );
 }
