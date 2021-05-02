@@ -30,7 +30,7 @@
   position: absolute;
   width: 410px;
   top: 10%;
-  left: 10%;
+  left: 5%;
 }
 
 .interaction__box-positioning {
@@ -44,12 +44,22 @@
   display: flex;
   flex-direction: row;
   height: 800px;
+  width: auto;
 }
 
+.interaction__box-positioning-rows-right-relative-right {
+  position: relative;
+  width: 100%;
+}
+
+.interaction__box-positioning-rows-right-relative-left {
+  position: relative;
+  width: 100%;
+}
 /* left positioning */
 
 .interaction__box-positioning-rows-left {
-  position: absolute;
+  position: relative;
   overflow: hidden;
   bottom: 0;
   max-width: 410px;

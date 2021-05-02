@@ -28,7 +28,7 @@ export default function InteractionDesign() {
       </div>
       <div>
         <div className="interaction__box-positioning-rows">
-          <div>
+          <div className="interaction__box-positioning-rows-right-relative-left">
             <div className="interaction__box-positioning-rows-left">
               <div>
                 <h3 className="interaction__box-positioning-rows-left-h3">
@@ -62,7 +62,7 @@ export default function InteractionDesign() {
             </div>
           </div>
 
-          <div>
+          <div className="interaction__box-positioning-rows-right-relative-right">
             <div className="interaction__box-positioning-rows-right">
               <div className="zeptolab__container">
                 <div className="zeptolab__container-box">
