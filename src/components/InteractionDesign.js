@@ -74,7 +74,7 @@ export default function InteractionDesign() {
                     />
                   </div>
 
-                  <div>
+                  <div className="zeptolab__container-responsivePositioning">
                     <div>
                       <p className="zeptolab__container-powered">Powered by:</p>
                     </div>

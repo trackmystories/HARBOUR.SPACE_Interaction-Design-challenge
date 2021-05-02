@@ -21,7 +21,6 @@
 
 #interaction__section {
   box-sizing: border-box;
-  border: 1px solid black;
   position: relative;
   height: 800px;
   z-index: -10;
@@ -41,7 +40,6 @@
 
 /* direction of rows */
 .interaction__box-positioning-rows {
-  border: 1px solid black;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -111,7 +109,6 @@
 }
 
 .zeptolab__container {
-  border: 1px solid black;
   position: relative;
   width: 450px;
   height: 620px;
@@ -174,9 +171,10 @@
 .zeptolab__container-tallBox {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 5%;
+  justify-content: space-around;
   width: 100%;
+  padding: 30px;
+  padding-left: 0px;
   height: 100%;
   background: #ffffff;
   border: 1px solid #dadada;
@@ -198,8 +196,7 @@
   color: #535353;
 }
 
-@media only screen and (max-width: 675px) {
-  /* Stamp component */
+@media only screen and (max-width: 775px) {
   /* Stamp component */
 
   .interaction__box-img {
@@ -222,18 +219,18 @@
   /* page */
 
   #interaction__section {
+    width: 80%;
     box-sizing: border-box;
-    border: 1px solid black;
     position: relative;
     height: 800px;
     z-index: -10;
   }
 
   .interaction__main {
-    position: absolute;
+    position: relative;
     width: 410px;
-    top: 10%;
-    left: 10%;
+    top: 0%;
+    left: 20%;
   }
 
   .interaction__box-positioning {
@@ -243,29 +240,23 @@
 
   /* direction of rows */
   .interaction__box-positioning-rows {
-    margin-top: 30%;
-    border: 1px solid black;
+    margin: 0 24%;
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: space-between;
     height: 800px;
-  }
-
-  .interaction__box-positioning-rows > div {
-    position: absolute;
-    top: 40%;
-    width: 100%;
   }
 
   /* left positioning */
 
   .interaction__box-positioning-rows-left {
-    position: absolute;
-    bottom: 0;
-    max-width: 410px;
-    height: 440px;
-    left: 10%;
-    top: 35%;
+    position: relative;
+    overflow: none;
+    width: 100%;
+    height: 340px;
+    left: 0%;
+    top: 10%;
   }
 
   .interaction__box-positioning-rows-left-h3 {
@@ -283,9 +274,11 @@
   }
 
   .interaction__box-positioning-rows-left-event-wrapper {
+    width: 100%;
     position: absolute;
-    bottom: 0%;
-    left: 10%;
+    bottom: 0;
+    top: 100%;
+    left: 0;
   }
 
   .interaction__box-positioning-rows-left-event-wrapper-p {
@@ -313,21 +306,24 @@
   /* right positioning */
 
   .interaction__box-positioning-rows-right {
-    position: absolute;
-    right: 10%;
-    top: 40%;
+    position: relative;
+    top: 30%;
   }
 
   .zeptolab__container {
-    border: 1px solid black;
     position: relative;
     width: 450px;
     height: 620px;
   }
 
-  .zeptolab__container-box {
+  .zeptolab__container-responsivePositioning {
     display: flex;
     flex-direction: row;
+  }
+
+  .zeptolab__container-box {
+    display: flex;
+    flex-direction: column-reverse;
     justify-content: space-around;
     width: 210px;
   }
@@ -350,6 +346,8 @@
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
   }
 
   .zeptolab__container-shortBox {
@@ -382,9 +380,10 @@
   .zeptolab__container-tallBox {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 5%;
+    justify-content: space-around;
     width: 100%;
+    padding: 30px;
+    padding-left: 0px;
     height: 100%;
     background: #ffffff;
     border: 1px solid #dadada;
