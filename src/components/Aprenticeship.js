@@ -8,9 +8,10 @@ export default function Aprenticeship() {
     <div id="aprenticeship_section">
       <div className="aprenticeship">
         <div className="aprenticeship__left">
-          <div className="aprenticeship__left-responsive-color"></div>
-          <div className="aprenticeship__left-responsive-color-white"></div>
           <div className="apprenticeship__image">
+            <div className="aprenticeship__left-responsive-color"></div>
+            <div className="aprenticeship__left-responsive-color-white"></div>
+
             <div className="apprenticeship__image-circle-container">
               <img
                 className="apprenticeship__image-circle-container-img"

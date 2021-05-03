@@ -21,7 +21,7 @@ code {
 .grid {
   display: grid;
   grid-template-rows: 60px 1fr 1fr 1fr 1fr;
-  grid-template-areas: "header" "main" "section_1" "section_2" "footer";
+  grid-template-areas: "header" "main" "section_1" "section_2" "section_3" "footer";
 }
 
 .grid > .header {
@@ -38,6 +38,10 @@ code {
 
 .grid > .section_2 {
   grid-area: section_2;
+}
+
+.grid > .section_3 {
+  grid-area: section_3;
 }
 
 .grid > .footer {

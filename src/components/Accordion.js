@@ -27,10 +27,12 @@ export default function Accordion(props: AccordionProps) {
 
   return (
     <div id="accordion__section">
-      <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
+      <div className="accordion__section-rows">
         <p className="accordion__title">{props.title}</p>
-        <Plus className={`${setRotate}`} width={10} fill={"#333"} />
-      </button>
+        <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
+          <Plus className={`${setRotate}`} width={10} fill={" #959595"} />
+        </button>
+      </div>
       <div
         ref={content}
         style={{ maxHeight: `${setHeight}` }}

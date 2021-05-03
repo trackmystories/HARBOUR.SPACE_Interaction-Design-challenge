@@ -4,6 +4,7 @@ import Main from "./screens/Main";
 import Aprenticeship from "./components/Aprenticeship";
 import Footer from "./screens/Footer";
 import Faq from "./screens/Faq";
+import Carousal from "./screens/Carousal";
 import ViewportProvider from "./Providers/viewportProvider";
 
 import "./App.css";
@@ -24,9 +25,17 @@ export default function App() {
           <Aprenticeship />
         </section>
 
-        <section className="section_2"></section>
+        <section className="section_2">
+          <Carousal />
+        </section>
 
-        <footer className="footer"></footer>
+        <section className="section_3">
+          <Faq />
+        </section>
+
+        <footer className="footer">
+          <Footer />
+        </footer>
       </div>
     </ViewportProvider>
   );
