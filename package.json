@@ -1,4 +1,5 @@
 {
+  "homepage": "http:/trackmystories.git.io/HARBOUR.SPACE_Interaction-Design-challenge",
   "name": "harbour-space",
   "main": "lib/index.js",
   "version": "0.1.0",
