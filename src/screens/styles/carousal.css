@@ -57,7 +57,7 @@
 
 @media only screen and (max-width: 675px) {
   #carousal__section {
-    margin: auto;
+    margin: 30% auto 0 auto;
   }
   .carousal__container {
     width: 90%;
@@ -155,10 +155,4 @@
 }
 .side-left {
   left: 0;
-}
-
-@media only screen and (max-width: 675px) {
-  .movable {
-    display: none;
-  }
 }
