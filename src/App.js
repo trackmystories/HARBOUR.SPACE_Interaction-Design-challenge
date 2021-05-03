@@ -5,6 +5,7 @@ import Aprenticeship from "./components/Aprenticeship";
 import Footer from "./screens/Footer";
 import Faq from "./screens/Faq";
 import Carousal from "./screens/Carousal";
+import Commitment from "./screens/Commitment";
 import ViewportProvider from "./Providers/viewportProvider";
 
 import "./App.css";
@@ -26,10 +27,14 @@ export default function App() {
         </section>
 
         <section className="section_2">
-          <Carousal />
+          <Commitment />
         </section>
 
         <section className="section_3">
+          <Carousal />
+        </section>
+
+        <section className="section_4">
           <Faq />
         </section>
 
