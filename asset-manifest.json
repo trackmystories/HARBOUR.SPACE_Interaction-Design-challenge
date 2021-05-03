@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/HARBOUR.SPACE_Interaction-Design-challenge/static/css/main.02ecf2a1.chunk.css",
+    "main.js": "/HARBOUR.SPACE_Interaction-Design-challenge/static/js/main.ed40e045.chunk.js",
+    "main.js.map": "/HARBOUR.SPACE_Interaction-Design-challenge/static/js/main.ed40e045.chunk.js.map",
+    "runtime-main.js": "/HARBOUR.SPACE_Interaction-Design-challenge/static/js/runtime-main.af89ae8f.js",
+    "runtime-main.js.map": "/HARBOUR.SPACE_Interaction-Design-challenge/static/js/runtime-main.af89ae8f.js.map",
+    "static/js/2.13eb6030.chunk.js": "/HARBOUR.SPACE_Interaction-Design-challenge/static/js/2.13eb6030.chunk.js",
+    "static/js/2.13eb6030.chunk.js.map": "/HARBOUR.SPACE_Interaction-Design-challenge/static/js/2.13eb6030.chunk.js.map",
+    "static/js/3.d451b0fc.chunk.js": "/HARBOUR.SPACE_Interaction-Design-challenge/static/js/3.d451b0fc.chunk.js",
+    "static/js/3.d451b0fc.chunk.js.map": "/HARBOUR.SPACE_Interaction-Design-challenge/static/js/3.d451b0fc.chunk.js.map",
+    "index.html": "/HARBOUR.SPACE_Interaction-Design-challenge/index.html",
+    "static/css/main.02ecf2a1.chunk.css.map": "/HARBOUR.SPACE_Interaction-Design-challenge/static/css/main.02ecf2a1.chunk.css.map",
+    "static/js/2.13eb6030.chunk.js.LICENSE.txt": "/HARBOUR.SPACE_Interaction-Design-challenge/static/js/2.13eb6030.chunk.js.LICENSE.txt",
+    "static/media/Pattern.657df182.svg": "/HARBOUR.SPACE_Interaction-Design-challenge/static/media/Pattern.657df182.svg",
+    "static/media/circle-pattern.ebddda55.svg": "/HARBOUR.SPACE_Interaction-Design-challenge/static/media/circle-pattern.ebddda55.svg",
+    "static/media/icon.342f78d4.svg": "/HARBOUR.SPACE_Interaction-Design-challenge/static/media/icon.342f78d4.svg",
+    "static/media/left-arrow.bb288448.svg": "/HARBOUR.SPACE_Interaction-Design-challenge/static/media/left-arrow.bb288448.svg",
+    "static/media/right-arrow.1884d75a.svg": "/HARBOUR.SPACE_Interaction-Design-challenge/static/media/right-arrow.1884d75a.svg",
+    "static/media/stamp.a40dc0e7.svg": "/HARBOUR.SPACE_Interaction-Design-challenge/static/media/stamp.a40dc0e7.svg",
+    "static/media/student.b3d941ec.jpg": "/HARBOUR.SPACE_Interaction-Design-challenge/static/media/student.b3d941ec.jpg",
+    "static/media/zeptolab.a1dcf221.png": "/HARBOUR.SPACE_Interaction-Design-challenge/static/media/zeptolab.a1dcf221.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af89ae8f.js",
+    "static/js/2.13eb6030.chunk.js",
+    "static/css/main.02ecf2a1.chunk.css",
+    "static/js/main.ed40e045.chunk.js"
+  ]
+}
