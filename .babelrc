@@ -1,5 +1,0 @@
-{
-  "mutator": {
-    "plugins": ["@babel/plugin-syntax-jsx"]
-  }
-}
