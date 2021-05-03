@@ -89,9 +89,9 @@
   }
 
   .aprenticeship__left {
+    display: flex;
+    align-items: center;
     margin: auto;
-    width: 100%;
-    position: relative;
   }
 
   .aprenticeship__left-responsive-color {
@@ -154,18 +154,12 @@
     margin: auto;
     width: 100%;
   }
-  .apprenticeship__image-circle-container-img {
-    margin: auto;
-    width: auto;
-  }
-
-  .apprenticeship__image-student-container {
-  }
 
   .apprenticeship__image-student-container-img {
-    display: flex;
-    margin: auto;
-    width: auto;
     border-radius: 1000px;
+  }
+
+  .backgroundColors {
+    position: relative;
   }
 }
