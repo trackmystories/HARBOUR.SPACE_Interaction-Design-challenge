@@ -6,23 +6,44 @@
   border-bottom: 1px solid #e6e6e6;
 }
 
+.accordion__section-rows {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
 .accordion {
   background-color: #fff;
   color: #685dc5;
   cursor: pointer;
   padding: 18px;
-  display: flex;
+  height: 50px;
+  width: 50px;
+  border-radius: 1000px;
   align-items: center;
-  border: none;
-  outline: none;
+  border: 1px solid #ececec;
   transition: background-color 0.6s ease;
 }
 
 .accordion__title {
-  font-family: Apercu Pro;
   font-weight: 600;
   font-size: 14px;
   text-align: left;
+  height: 32px;
+  left: 0%;
+  right: 79.46%;
+  top: calc(50% - 32px / 2 - 358px);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+
+  letter-spacing: -0.33px;
+
+  color: #685dc5;
 }
 
 .accordion__icon {
@@ -45,4 +66,81 @@
   font-weight: 400;
   font-size: 14px;
   padding: 18px;
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 675px) {
+  #accordion__section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .accordion__section-rows {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    justify-content: space-between;
+  }
+
+  .accordion {
+    background-color: #fff;
+    color: #685dc5;
+    cursor: pointer;
+    padding: 18px;
+    height: 50px;
+    width: 50px;
+    border-radius: 1000px;
+    align-items: center;
+    transition: background-color 0.6s ease;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+  }
+
+  .accordion__title {
+    height: 52px;
+    left: 0%;
+    right: 21.68%;
+    top: calc(50% - 52px / 2);
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    letter-spacing: -0.27px;
+
+    color: #535353;
+  }
+
+  .accordion__icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+  }
+
+  .rotate {
+    transform: rotate(90deg);
+  }
+
+  .accordion__content {
+    background-color: white;
+    overflow: auto;
+    transition: max-height 0.6s ease;
+  }
+
+  .accordion__text {
+    font-family: Apercu Pro;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 18px;
+  }
+}
+/* Mobile */
+
+@media only screen and (max-width: 375px) {
 }

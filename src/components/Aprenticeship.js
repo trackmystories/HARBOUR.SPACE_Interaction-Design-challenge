@@ -7,9 +7,11 @@ export default function Aprenticeship() {
   return (
     <div id="aprenticeship_section">
       <div className="aprenticeship">
-        <div className="aprenticeship__left">
+        <div className="backgroundColors">
           <div className="aprenticeship__left-responsive-color"></div>
           <div className="aprenticeship__left-responsive-color-white"></div>
+        </div>
+        <div className="aprenticeship__left">
           <div className="apprenticeship__image">
             <div className="apprenticeship__image-circle-container">
               <img
