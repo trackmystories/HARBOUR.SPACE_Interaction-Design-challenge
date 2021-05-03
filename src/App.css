@@ -20,7 +20,7 @@ code {
 
 .grid {
   display: grid;
-  grid-template-rows: 60px 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 60px 1fr 0.7fr 1fr 0.8fr 0.8fr;
   grid-template-areas: "header" "main" "section_1" "section_2" "section_3" "section_4" "footer";
 }
 
