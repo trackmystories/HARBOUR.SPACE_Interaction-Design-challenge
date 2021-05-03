@@ -31,3 +31,35 @@
 .marginBottom {
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 675px) {
+  .commitment__section-flex {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .commitment__section-flex-2Boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .commitment__section-fulltime-contract {
+    width: 320px;
+    height: 219px;
+    left: 561px;
+    background: #ffffff;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .marginRight {
+    margin-right: 20px;
+  }
+
+  .marginBottom {
+    margin-bottom: 20px;
+  }
+}

@@ -16,12 +16,9 @@
   font-weight: 300;
   font-size: 26px;
   line-height: 35px;
-  /* identical to box height, or 135% */
-
   display: flex;
   align-items: center;
   letter-spacing: -0.185714px;
-
   color: #6a6a6a;
 }
 

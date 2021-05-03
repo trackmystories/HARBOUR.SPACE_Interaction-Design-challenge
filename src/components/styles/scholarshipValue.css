@@ -1,4 +1,8 @@
 #commitment__section {
+  box-sizing: border-box;
+}
+.commitment {
+  margin: 0 20%;
 }
 
 .commitment__section-flex {
@@ -69,4 +73,15 @@
   border: 1px solid #dadada;
   box-sizing: border-box;
   border-radius: 4px;
+}
+
+@media only screen and (max-width: 675px) {
+  .commitment__section-scholarshipValue {
+    width: 320px;
+    height: 510px;
+    background: #ffffff;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
 }
