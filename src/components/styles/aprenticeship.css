@@ -72,12 +72,11 @@
 
 @media only screen and (max-width: 675px) {
   #aprenticeship_section {
-    margin: 20% auto;
+    margin: auto;
     z-index: -10;
   }
 
   .aprenticeship {
-    margin-top: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -96,15 +95,17 @@
     height: 501px;
     top: 35%;
     left: 0;
+    margin-top: 190px;
     background: #685dc5;
     z-index: -9999;
   }
   .aprenticeship__left-responsive-color-white {
     position: absolute;
     width: 80%;
-    height: 1001px;
-    top: 30%;
+    height: 750px;
+    top: 0;
     left: 10%;
+    margin-top: 180px;
     background: #fff;
     z-index: -9998;
     border: 1px solid #e6e6e6;

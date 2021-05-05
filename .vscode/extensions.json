@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "donjayamanne.git-extension-pack",
+        "ms-vscode.vscode-typescript-next"
+    ]
+}

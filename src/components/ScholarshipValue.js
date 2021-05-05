@@ -3,8 +3,8 @@ import "./styles/scholarshipValue.css";
 
 export default function ScholarshipValue() {
   return (
-    <div className="commitment__section-scholarshipValue">
-      <div>
+    <div id="commitment__section">
+      <div className="commitment__section-scholarshipValue">
         <div className="commitment__section-scholarshipValue-container-tall">
           <p className="commitment__section-scholarshipValue-text">
             Scholarship value

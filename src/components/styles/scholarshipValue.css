@@ -1,8 +1,11 @@
 #commitment__section {
+  margin-top: 60px;
   box-sizing: border-box;
 }
 .commitment {
-  margin: 0 20%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .commitment__section-flex {
@@ -83,5 +86,19 @@
     border: 1px solid transparent;
     box-sizing: border-box;
     border-radius: 4px;
+  }
+
+  .commitment__section-scholarshipValue-euro {
+    position: absolute;
+    margin-top: 20px;
+    height: 34px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.436364px;
+    color: #535353;
   }
 }
