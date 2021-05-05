@@ -28,8 +28,8 @@ export default function Commitment() {
             </div>
 
             <div className="marginBottom" />
-
             <div className="commitment__section-fulltime-contract">
+      
               <FullTimeContract />
             </div>
           </div>
