@@ -57,7 +57,9 @@
 
 @media only screen and (max-width: 675px) {
   #carousal__section {
-    margin: 30% auto 0 auto;
+    border: 1px black solid;
+    margin: 0 auto;
+    margin-top: 20%;
   }
   .carousal__container {
     width: 90%;
@@ -127,11 +129,11 @@
 }
 
 .movable.cursor-right:after {
-  content: "DRAG";
+  content: 'DRAG';
 }
 
 .movable.cursor-left:after {
-  content: "DRAG";
+  content: 'DRAG';
 }
 
 .sides {
