@@ -1,8 +1,11 @@
 #commitment__section {
+margin-top: 60px;
   box-sizing: border-box;
 }
 .commitment {
-  margin: 0 20%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .commitment__section-flex {
