@@ -9,4 +9,4 @@ React hooks and css / responsive
 <img src="./src/assets/4.png" width="350" alt="4.png">
 <img src="./src/assets/7.png" width="350" alt="7.png">
 <img src="./src/assets/8.png" width="350" alt="8.png">
-<img src="./src/assets/9.png" width="350" alt="9.png">
+<img src="./src/assets/animation.png" width="350" alt="animation.png">
