@@ -5,7 +5,7 @@ import FirstThree from "../components/FirstThree";
 
 const viewportContext = createContext({});
 
-export const useViewport = () => {
+const useViewport = () => {
   const { width, height } = useContext(viewportContext);
   return { width, height };
 };

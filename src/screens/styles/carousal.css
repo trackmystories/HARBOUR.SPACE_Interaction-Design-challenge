@@ -131,11 +131,11 @@
 }
 
 .movable.cursor-right:after {
-  content: 'DRAG';
+  content: "DRAG";
 }
 
 .movable.cursor-left:after {
-  content: 'DRAG';
+  content: "DRAG";
 }
 
 .sides {

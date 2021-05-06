@@ -1,7 +1,6 @@
 import * as React from "react";
 import { useState, useRef } from "react";
 import "./styles/accordion.css";
-import Plus from "./Plus";
 
 type AccordionProps = {
   title: string,
@@ -20,13 +19,14 @@ export default function Accordion(props: AccordionProps) {
     setHeightState(
       setActive === "active" ? "0px" : `${content.current.scrollHeight}px`
     );
-    setRotateState(setActive === "active" ? "plus" : "minus");
+    setRotateState(setRotate === "active" ? "plus" : "minus");
   }
 
   return (
     <div id="accordion__section">
       <div className="accordion__section-rows">
         <p className="accordion__title">{props.title}</p>
+
         <button className="morph" onClick={toggleAccordion}>
           <span className={setActive ? "plus" : "minus"}></span>
         </button>
