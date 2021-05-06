@@ -153,6 +153,10 @@
   border-radius: 1000px;
   background: #685dc5;
   color: gray;
+  padding: 20%;
+  border: none;
+  transition: all 1s;
+  color: gray;
 }
 
 .plus {
