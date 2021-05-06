@@ -118,11 +118,6 @@
     color: #535353;
   }
 
-  .accordion__icon {
-    margin-left: auto;
-    transition: transform 0.6s ease;
-  }
-
   .rotate {
     transform: rotate(90deg);
   }
@@ -139,6 +134,39 @@
     font-size: 14px;
     padding: 18px;
   }
+}
+
+.morph {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 1000px;
+  background: white;
+  color: white;
+}
+
+.minus {
+  content: url("../../assets/line.svg");
+  width: 54px;
+  height: 54px;
+  border: none;
+  border-radius: 1000px;
+  background: #685dc5;
+  color: gray;
+}
+
+.plus {
+  padding: 20%;
+  border: none;
+  content: url("../../assets/plus.svg");
+  width: 54px;
+  height: 54px;
+  border-radius: 1000px;
+  background: #685dc5;
+  transform: rotate(90deg);
+  transition-timing-function: ease-in;
+  transition: all 1s;
+  color: gray;
 }
 /* Mobile */
 

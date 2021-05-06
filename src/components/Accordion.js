@@ -11,7 +11,7 @@ type AccordionProps = {
 export default function Accordion(props: AccordionProps) {
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
-  const [setRotate, setRotateState] = useState("accordion__icon");
+  const [setRotate, setRotateState] = useState("plus");
 
   const content = useRef(null);
 
@@ -20,17 +20,15 @@ export default function Accordion(props: AccordionProps) {
     setHeightState(
       setActive === "active" ? "0px" : `${content.current.scrollHeight}px`
     );
-    setRotateState(
-      setActive === "active" ? "accordion__icon" : "accordion__icon rotate"
-    );
+    setRotateState(setActive === "active" ? "plus" : "minus");
   }
 
   return (
     <div id="accordion__section">
       <div className="accordion__section-rows">
         <p className="accordion__title">{props.title}</p>
-        <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
-          <Plus className={`${setRotate}`} width={10} fill={" #959595"} />
+        <button className="morph" onClick={toggleAccordion}>
+          <span className={setActive ? "plus" : "minus"}></span>
         </button>
       </div>
       <div
