@@ -167,10 +167,11 @@
 
   .plus {
     padding: 20%;
-    border: 1px solid #685dc5;
+    border: 1px solid black;
     content: url("../../assets/plus.svg");
     width: 54px;
     height: 54px;
+    color: gray;
     border-radius: 1000px;
     background: #fff;
     transform: rotate(90deg);
