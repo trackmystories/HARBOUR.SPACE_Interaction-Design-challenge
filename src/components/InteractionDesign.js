@@ -2,7 +2,6 @@ import * as React from "react";
 import zeptolab from "../assets/zeptolab.png";
 import "./styles/interactionDesign.css";
 import stamp from "../assets/stamp.svg";
-import pattern from "../assets/Pattern.svg";
 
 const InteractionBox = () => {
   return (

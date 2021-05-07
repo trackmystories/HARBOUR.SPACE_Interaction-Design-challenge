@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
-import "../screens/styles/carousal.css";
+import "./styles/first.css";
 import rightArrow from "../assets/right-arrow.svg";
 import leftArrow from "../assets/left-arrow.svg";
 import CarousalItem from "../components/CarousalItem";
@@ -8,6 +8,7 @@ import CarousalItem from "../components/CarousalItem";
 const First = () => {
   const [data, setData] = useState([]);
   const [current, setCurrent] = useState(0);
+
   let first = data.slice(current, current + 1);
 
   useEffect(() => {
