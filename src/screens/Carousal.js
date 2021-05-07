@@ -4,8 +4,10 @@ import { CarousalViewport } from "../Providers/viewportProvider";
 
 export default function Carousal() {
   return (
-    <ViewportProvider>
-      <CarousalViewport />
-    </ViewportProvider>
+    <>
+      <ViewportProvider>
+        <CarousalViewport />
+      </ViewportProvider>
+    </>
   );
 }
