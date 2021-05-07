@@ -29,7 +29,6 @@ code {
 }
 
 .grid > .main {
-  border: 1px solid black;
   grid-area: main;
 }
 
@@ -42,7 +41,6 @@ code {
 }
 
 .grid > .section_3 {
-  border: 1px solid black;
   grid-area: section_3;
 }
 
