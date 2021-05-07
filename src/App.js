@@ -12,6 +12,7 @@ import "./App.css";
 
 export default function App() {
   return (
+
     <>
       <ViewportProvider>
         <div className="grid">
@@ -43,5 +44,6 @@ export default function App() {
         </div>
       </ViewportProvider>
     </>
+
   );
 }
