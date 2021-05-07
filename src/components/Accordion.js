@@ -10,7 +10,6 @@ type AccordionProps = {
 export default function Accordion(props: AccordionProps) {
   const [setActive, setActiveState] = useState("");
   const [setHeight, setHeightState] = useState("0px");
-  const [setRotate, setRotateState] = useState("plus");
 
   const content = useRef(null);
 
@@ -19,16 +18,15 @@ export default function Accordion(props: AccordionProps) {
     setHeightState(
       setActive === "active" ? "0px" : `${content.current.scrollHeight}px`
     );
-    setRotateState(setRotate === "active" ? "plus" : "minus");
   }
 
   return (
     <div id="accordion__section">
       <div className="accordion__section-rows">
-        <p className="accordion__title">{props.title}</p>
-
+        <p className="accordion__title">Program Conditions</p>
+        <p className="accordion__title-p">{props.title}</p>
         <button className="morph" onClick={toggleAccordion}>
-          <span className={setActive ? "plus" : "minus"}></span>
+          <span className={setActive ? "minus" : "plus"}></span>
         </button>
       </div>
       <div
@@ -36,10 +34,9 @@ export default function Accordion(props: AccordionProps) {
         style={{ maxHeight: `${setHeight}` }}
         className="accordion__content"
       >
-        <div
-          className="accordion__text"
-          dangerouslySetInnerHTML={{ __html: props.content }}
-        />
+        <div className="accordion__container-text">
+          <p className="accordion__text">{props.content}</p>
+        </div>
       </div>
     </div>
   );

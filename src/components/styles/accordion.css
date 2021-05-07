@@ -29,7 +29,6 @@
 
 .accordion__title {
   font-weight: 600;
-  font-size: 14px;
   text-align: left;
   height: 32px;
   left: 0%;
@@ -46,6 +45,8 @@
   color: #685dc5;
 }
 
+.accordion__title-p {
+}
 
 .accordion__content {
   background-color: white;
@@ -56,7 +57,12 @@
 .accordion__text {
   font-weight: 400;
   font-size: 14px;
-  padding: 18px;
+  padding: 30px;
+}
+
+.accordion__container-text {
+  padding-left: 30%;
+  padding-right: 20%;
 }
 
 /* Tablet */
@@ -93,24 +99,12 @@
   }
 
   .accordion__title {
-    height: 52px;
-    left: 0%;
-    right: 21.68%;
-    top: calc(50% - 52px / 2);
-
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 26px;
-    /* or 144% */
-
-    letter-spacing: -0.27px;
-
-    color: #535353;
+    display: none;
   }
 
-  .rotate {
-    transform: rotate(90deg);
+  .accordion__text {
+    font-weight: 400;
+    font-size: 14px;
   }
 
   .accordion__content {
