@@ -46,14 +46,6 @@
   color: #685dc5;
 }
 
-.accordion__icon {
-  margin-left: auto;
-  transition: transform 0.6s ease;
-}
-
-.rotate {
-  transform: rotate(90deg);
-}
 
 .accordion__content {
   background-color: white;
@@ -62,7 +54,6 @@
 }
 
 .accordion__text {
-  font-family: Apercu Pro;
   font-weight: 400;
   font-size: 14px;
   padding: 18px;
@@ -166,8 +157,10 @@
   width: 54px;
   height: 54px;
   border-radius: 1000px;
-  background: white;
-  transform: rotate(90deg);
+
+  background: #fff;
+  transform: rotate(900deg);
+
   transition-timing-function: ease-in;
   transition: all 1s;
   color: gray;
