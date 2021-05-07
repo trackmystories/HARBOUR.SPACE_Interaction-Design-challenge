@@ -27,6 +27,7 @@ export default function Accordion(props: AccordionProps) {
     <div id="accordion__section">
       <div className="accordion__section-rows">
         <p className="accordion__title">{props.title}</p>
+
         <button className="morph" onClick={toggleAccordion}>
           <span className={setActive ? "plus" : "minus"}></span>
         </button>

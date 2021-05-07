@@ -1,12 +1,21 @@
 import * as React from "react";
 import { useEffect, createContext, useState, useContext } from "react";
+import First from "../components/First";
+import FirstThree from "../components/FirstThree";
 
 const viewportContext = createContext({});
 
-export const useViewport = () => {
+const useViewport = () => {
   const { width, height } = useContext(viewportContext);
   return { width, height };
 };
+
+export function CarousalViewport() {
+  const { width } = useViewport();
+  const breakpoint = 670;
+
+  return width < breakpoint ? <First /> : <FirstThree />;
+}
 
 const ViewportProvider = ({ children }) => {
   const [width, setWidth] = useState(window.innerWidth);
